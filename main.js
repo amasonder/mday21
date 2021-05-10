@@ -1,24 +1,35 @@
-
 const btn = document.querySelector('#btn');
 btn.addEventListener('click', function () {
-    const para4 = document.querySelector('#para4');
-    gif1.innerHTML = "<img src='img/babypush.gif'>";
+    if (gif1.innerHTML === "") {
+        gif1.innerHTML = "<img src='img/babypush.gif'>";
+    } else {
+        gif1.innerHTML = ""
+    }
 });
 
 const btn2 = document.querySelector('#btn2');
 btn2.addEventListener('click', function () {
-    const para4 = document.querySelector('#para4');
-    gif2.innerHTML = "<img src='img/ace.gif'>";
+    if (gif2.innerHTML === "") {
+        gif2.innerHTML = "<img src='img/ace.gif'>";
+    } else {
+        gif2.innerHTML = ""
+    }
 });
 
 const btn3 = document.querySelector('#btn3');
 btn3.addEventListener('click', function () {
-    const para4 = document.querySelector('#para4');
-    gif3.innerHTML = "<img src='img/expel.gif'>";
+    if (gif3.innerHTML === "") {
+        gif3.innerHTML = "<img src='img/expel.gif'>";
+    } else {
+        gif3.innerHTML = ""
+    }
 });
 
 const btn4 = document.querySelector('#btn4');
 btn4.addEventListener('click', function () {
-    const para4 = document.querySelector('#para4');
-    gif4.innerHTML = "<img src='img/spin.gif'>";
+    if (gif4.innerHTML === "") {
+        gif4.innerHTML = "<img src='img/spin.gif'>";
+    } else {
+        gif4.innerHTML = ""
+    }
 });
